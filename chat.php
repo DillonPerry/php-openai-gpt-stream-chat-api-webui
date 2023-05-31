@@ -57,7 +57,7 @@ $question = str_ireplace('{[$add$]}', '+', $question);
 
 // 此处需要填入 openai 的 api key 
 $chat = new ChatGPT([
-    'api_key' => '',
+    'api_key' => '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',
 ]);
 
 /*
